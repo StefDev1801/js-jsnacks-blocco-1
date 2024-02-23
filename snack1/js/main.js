@@ -10,9 +10,9 @@ for (let index = 0; index < array2Numbers.length; index++) {
     console.log(element);
     if (number1>number2) {
         console.log('The bigger number is: ' + number1);
-        
+        break;
     }else {
         console.log('The bigger number is: ' + number2);
-        
+        break;
     }
 }
