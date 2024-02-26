@@ -11,7 +11,8 @@
     //     //value = Math.floor(value / 10);
     // }
     // console.log(sum);
-    
+
+/*
 let fourDigitNumber = prompt('tell me a 4 digit number')
 sum = 0;
 
@@ -21,5 +22,14 @@ while (fourDigitNumber) {
 }
 
 console.log(sum);
+*/
 
-for(let i=0; i++)
+//OR
+let somma=0
+let userNumber = prompt("insert number and i sum his digits")
+for (let index = 0; index < userNumber.length; index++) {
+    let element = userNumber[index];
+    element = Number(element);
+    somma+=element;
+}
+console.log(somma);
