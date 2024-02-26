@@ -4,7 +4,7 @@ let emptyArray = []
 //Chiedi per 6 volte all’utente di inserire un numero, 
 /*
 for (let i = 0; i < 6; i++) {
-    let userNumber = prompt('insert a number' + i)
+    let userNumber = Number(prompt('insert a number' + i))
     //se è dispari inseriscilo nell’array
     if (userNumber % 2 == 1) {
         emptyArray.push(userNumber)
@@ -13,10 +13,10 @@ for (let i = 0; i < 6; i++) {
  */
 let i = 0
 while (i < 6) {
-    let userNumber = prompt('insert a number' + i)
+    let userNumber = Number(prompt('insert a number' + i))
     //se è dispari inseriscilo nell’array
     if (userNumber % 2 == 1) {
-        emptyArray.push(userNumber)
+        emptyArray.push(userNumber);
     }
     i++
 }
